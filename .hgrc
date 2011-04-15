@@ -1,0 +1,7 @@
+[ui]
+username = Justin Spahr-Summers
+ignore = ~/.hgignore
+
+[extensions]
+hgext.bookmarks = 
+hggit = 
