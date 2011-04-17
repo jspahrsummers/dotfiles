@@ -1,7 +1,4 @@
 syntax: glob
 
-.DS_Store
-*.swp
-*.mode1v3
-*.pbxuser
-xcuserdata
+auth
+servers
