@@ -1,5 +1,9 @@
 let mapleader=","
 
+filetype off
+
+call pathogen#runtime_append_all_bundles()
+
 syntax on
 filetype indent plugin off
 
