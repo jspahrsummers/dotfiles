@@ -10,3 +10,4 @@ alias svnaddrm='svnadd && svnrm'
 alias topcpu='top -o cpu'
 alias topmem='top -o rsize'
 alias ufdocgen="doxygen Documentation/Doxyfile && open Documentation/html/index.html"
+alias coffeeall="find . -name '*.coffee' -exec coffee -c -l {} \;"
