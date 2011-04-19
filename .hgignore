@@ -2,3 +2,5 @@ syntax: glob
 
 auth
 servers
+.*
+xcuserdata
