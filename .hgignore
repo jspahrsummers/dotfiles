@@ -2,7 +2,7 @@ syntax: glob
 
 auth
 servers
-.*
 xcuserdata
+.DS_Store
 *.swo
 *.swp
