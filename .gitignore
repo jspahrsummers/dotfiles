@@ -1,6 +1,2 @@
-.DS_Store
-xcuserdata
-.svn
-.hg
-*.swp
-*.swo
+auth
+servers
