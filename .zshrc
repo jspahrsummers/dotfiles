@@ -45,6 +45,23 @@ precmd () { vcs_info }
 
 export PROMPT='%{$fg[$NCOLOR]%}%B%n%b%{$reset_color%}:%{$fg[blue]%}%B%c/%b%{$reset_color%} ${vcs_info_msg_0_}%(!.#.$) '
 
+# Set up vim mode indicator
+export RPROMPT='[%*]'
+
+function zle-line-init zle-keymap-select {
+    export RPROMPT="${${KEYMAP/vicmd/[%*]}/main/-- INSERT --}"
+	zle reset-prompt
+}
+
+function zle-line-finish {
+    export RPROMPT='[%*]'
+	zle reset-prompt
+}
+
+zle -N zle-line-init
+zle -N zle-keymap-select
+zle -N zle-line-finish
+
 # Command completion options
 setopt auto_list
 setopt complete_aliases
