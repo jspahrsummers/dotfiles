@@ -31,6 +31,7 @@ export EDITOR=vim
 export VISUAL=vim
 
 # Shortcuts
+alias clearhist='rm "$HISTFILE"; clear'
 alias svnaddrm='svnadd && svnrm'
 alias topcpu='top -o cpu'
 alias topmem='top -o rsize'
