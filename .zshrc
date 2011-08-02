@@ -35,7 +35,6 @@ alias clearhist='rm "$HISTFILE"; clear'
 alias svnaddrm='svnadd && svnrm'
 alias topcpu='top -o cpu'
 alias topmem='top -o rsize'
-alias ufdocgen="doxygen Documentation/Doxyfile && open Documentation/html/index.html"
 
 # Set up vcs_info for the command prompt
 autoload -Uz vcs_info
