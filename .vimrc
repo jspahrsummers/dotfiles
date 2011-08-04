@@ -25,6 +25,7 @@ set autoread
 set number
 set foldmethod=indent
 set foldlevelstart=99
+set autochdir
 
 noremap <silent> <C-o> :FSSplitRight<CR>
 noremap <silent> <C-Down>  <ESC><C-w>j
