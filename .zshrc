@@ -70,6 +70,8 @@ setopt no_list_ambiguous
 # History options
 setopt append_history
 setopt hist_verify
+setopt share_history
+setopt histignorealldups
 
 # Directory options
 setopt auto_cd
