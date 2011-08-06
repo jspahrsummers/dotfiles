@@ -21,7 +21,7 @@ ZSH_THEME="clean"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(brew git svn vi-mode)
+plugins=(vi-mode)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -35,6 +35,7 @@ alias clearhist='rm "$HISTFILE"; clear'
 alias svnaddrm='svnadd && svnrm'
 alias topcpu='top -o cpu'
 alias topmem='top -o rsize'
+alias g=git
 
 # Set up vcs_info for the command prompt
 autoload -Uz vcs_info
