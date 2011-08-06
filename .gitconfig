@@ -1,0 +1,15 @@
+[core]
+	excludesfile = ~/.dotfiles/global.gitignore
+[alias]
+	co = checkout
+	ci = commit
+	st = status
+	setjmp = commit
+	longjmp = reset
+	fork = branch
+	join = merge
+	wait = merge
+	bg = branch
+	fg = checkout
+	barrier = rebase
+
