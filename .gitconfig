@@ -12,4 +12,5 @@
 	bg = branch
 	fg = checkout
 	barrier = rebase
+	s = svn
 
