@@ -50,6 +50,7 @@ nnoremap <leader>` :e ~/.vimrc<CR>
 nnoremap <leader>_ <C-w>_
 nnoremap <leader>h :noh<CR>
 nnoremap <leader>H :syntax sync fromstart<CR>
+nnoremap <leader>c /<<<<<<<\\|=======\\|>>>>>>><CR>
 vnoremap / /\v
 vnoremap <tab> %
 inoremap jj <ESC>
