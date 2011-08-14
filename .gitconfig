@@ -25,3 +25,5 @@
 	pager = false
 [diff]
 	renames = copies
+[status]
+	submodulesummary = true
