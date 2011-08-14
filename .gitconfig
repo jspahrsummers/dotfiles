@@ -18,4 +18,5 @@
 	fg = checkout
 	barrier = rebase
 	s = svn
+	sub = submodule
 
