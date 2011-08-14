@@ -1,5 +1,10 @@
 [core]
+	editor = vim
+	pager = view -
 	excludesfile = ~/.dotfiles/global.gitignore
+	whitespace = blank-at-eol,space-before-tab,indent-with-non-tab,-blank-at-eof,tabwidth=4
+	fsyncobjectfiles = true
+	preloadindex = true
 [alias]
 	co = checkout
 	ci = commit
