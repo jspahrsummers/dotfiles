@@ -19,4 +19,7 @@
 	barrier = rebase
 	s = svn
 	sub = submodule
-
+[color]
+	ui = auto
+	diff = false
+	pager = false
