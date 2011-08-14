@@ -23,3 +23,5 @@
 	ui = auto
 	diff = false
 	pager = false
+[diff]
+	renames = copies
