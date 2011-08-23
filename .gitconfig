@@ -27,3 +27,5 @@
 	renames = copies
 [status]
 	submodulesummary = true
+[branch]
+	autosetuprebase = always
