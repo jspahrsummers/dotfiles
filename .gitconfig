@@ -19,6 +19,7 @@
 	barrier = rebase
 	s = svn
 	sub = submodule
+	subst = submodule status
 	sup = submodule update
 	staged = diff --cached
 [color]
