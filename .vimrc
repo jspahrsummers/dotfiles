@@ -51,7 +51,7 @@ nnoremap <leader>_ <C-w>_
 nnoremap <leader>h :noh<CR>
 nnoremap <leader>H :syntax sync fromstart<CR>
 nnoremap <leader>c /<<<<<<<\\|=======\\|>>>>>>><CR>
-nnoremap <leader>j Jldw
+nnoremap <leader>j Jldw$
 vnoremap / /\v
 vnoremap <tab> %
 inoremap jj <ESC>
