@@ -32,3 +32,5 @@
 	submodulesummary = true
 [branch]
 	autosetuprebase = always
+[pack]
+	windowMemory = 1g
