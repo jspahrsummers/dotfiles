@@ -8,7 +8,8 @@ set guicursor+=i-ci:ver10-iCursor-blinkwait300-blinkon500-blinkoff500
 set guicursor+=r-cr:block-Cursor-blinkwait300-blinkon500-blinkoff500
 set guicursor+=sm:block-Cursor
 
-set guifont=Courier:h12
+set guifont=Menlo\ Regular:h11
+set antialias
 
 set background=light
 colorscheme gui_custom
