@@ -79,5 +79,8 @@ setopt auto_cd
 setopt no_auto_pushd
 setopt pushd_to_home
 
+# Globbing options
+setopt extendedglob
+
 # Load machine-specific configuration
 source $HOME/.zsh_profile
