@@ -54,6 +54,8 @@ nnoremap <leader>c /<<<<<<<\\|=======\\|>>>>>>><CR>
 nnoremap <leader>j Jldw$
 vnoremap / /\v
 vnoremap <tab> %
+vnoremap < <gv
+vnoremap > >gv
 inoremap jj <ESC>
 
 set bg=dark
