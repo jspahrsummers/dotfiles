@@ -76,7 +76,6 @@ setopt histignorealldups
 
 # Directory options
 setopt auto_cd
-setopt no_auto_pushd
 setopt pushd_to_home
 
 # Globbing options
