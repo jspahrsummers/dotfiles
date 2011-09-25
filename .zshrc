@@ -30,6 +30,11 @@ export SVN_EDITOR=nano
 export EDITOR=vim
 export VISUAL=vim
 
+# Flags for package installations
+export CFLAGS="-Os"
+export CXXFLAGS="$CFLAGS"
+export MAKEFLAGS="-j9"
+
 # Shortcuts
 alias clearhist='rm "$HISTFILE"; clear'
 alias svnaddrm='svnadd && svnrm'
