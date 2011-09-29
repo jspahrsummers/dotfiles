@@ -6,6 +6,7 @@
 	fsyncobjectfiles = true
 	preloadindex = true
 [alias]
+	wtf = blame
 	co = checkout
 	ci = commit
 	st = status
