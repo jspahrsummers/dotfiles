@@ -35,6 +35,9 @@ export CFLAGS="-Os"
 export CXXFLAGS="$CFLAGS"
 export MAKEFLAGS="-j9"
 
+# Homebrew flags
+export HOMEBREW_USE_CLANG
+
 # Shortcuts
 alias clearhist='rm "$HISTFILE"; clear'
 alias svnaddrm='svnadd && svnrm'
