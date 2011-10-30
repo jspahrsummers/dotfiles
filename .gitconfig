@@ -22,6 +22,9 @@
 	subst = submodule status
 	sup = submodule update
 	staged = diff --cached
+	rba = rebase --abort
+	rbc = rebase --continue
+	patches = log -p --reverse
 [color]
 	ui = auto
 	diff = false
