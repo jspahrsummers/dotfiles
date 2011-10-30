@@ -29,6 +29,7 @@
 	ui = auto
 	diff = false
 	pager = false
+	whitespace = trailing-space,space-before-tab
 [diff]
 	renames = copies
 [status]
@@ -37,3 +38,6 @@
 	autosetuprebase = always
 [pack]
 	windowMemory = 1g
+[advice]
+	pushNonFastForward = false
+	statusHints = false
