@@ -32,10 +32,15 @@
 	whitespace = trailing-space,space-before-tab
 [diff]
 	renames = copies
+	mnemonicprefix = true
 [status]
 	submodulesummary = true
 [branch]
 	autosetuprebase = always
+[push]
+	default = upstream
+[merge]
+	stat = true
 [pack]
 	windowMemory = 1g
 [advice]
