@@ -35,6 +35,12 @@ export CFLAGS="-Os"
 export CXXFLAGS="$CFLAGS"
 export MAKEFLAGS="-j9"
 
+# Homebrew flags
+export HOMEBREW_USE_CLANG
+
+# System-independent paths
+export LUA_PATH='?;?.lua;?.luac;/usr/local/lib/?.luac;/usr/local/lib/?.lua;/usr/local/lib/lua/?.luac;/usr/local/lib/lua/?.lua'
+
 # Shortcuts
 alias clearhist='rm "$HISTFILE"; clear'
 alias svnaddrm='svnadd && svnrm'
