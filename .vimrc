@@ -51,6 +51,8 @@ nnoremap <leader>_ <C-w>_
 nnoremap <leader>h :noh<CR>
 nnoremap <leader>H :syntax sync fromstart<CR>
 nnoremap <leader>c /<<<<<<<\\|=======\\|>>>>>>><CR>
+nnoremap <leader>d /deprecated<CR>
+nnoremap <leader>t /fixme\\|todo<CR>
 nnoremap <leader>j Jldw$
 vnoremap / /\v
 vnoremap <tab> %
