@@ -39,6 +39,8 @@
     submodulesummary = true
 [branch]
     autosetuprebase = always
+[branch "master"]
+    mergeoptions = --no-ff --no-commit
 [push]
     default = upstream
 [merge]
