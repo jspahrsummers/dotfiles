@@ -42,6 +42,8 @@
 	default = upstream
 [merge]
 	stat = true
+[rebase]
+	stat = true
 [pack]
 	windowMemory = 1g
 [advice]
