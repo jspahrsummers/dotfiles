@@ -26,6 +26,7 @@ set number
 set foldmethod=indent
 set foldlevelstart=99
 set autochdir
+set listchars=tab:⇥_,trail:.,nbsp:.
 
 noremap <silent> <C-o> :FSSplitRight<CR>
 noremap <silent> <C-Down>  <ESC><C-w>j
