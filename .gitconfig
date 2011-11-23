@@ -2,7 +2,7 @@
     editor = vim
     pager = view -
     excludesfile = ~/.dotfiles/global.gitignore
-    whitespace = blank-at-eol,space-before-tab,indent-with-non-tab,-blank-at-eof,tabwidth=4
+    whitespace = blank-at-eol,space-before-tab,-blank-at-eof,tabwidth=4
     fsyncobjectfiles = true
     preloadindex = true
     quotepath = true
