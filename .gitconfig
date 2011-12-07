@@ -22,7 +22,7 @@
     s = svn
     sub = submodule
     subst = submodule status
-    sup = submodule update
+    sup = submodule update --init --recursive
     staged = diff --cached
     rba = rebase --abort
     rbc = rebase --continue
