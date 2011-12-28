@@ -27,6 +27,7 @@
     rba = rebase --abort
     rbc = rebase --continue
     patches = log -p --reverse
+    superfetch = fetch -p --recurse-submodules
 [color]
     ui = auto
     diff = false
