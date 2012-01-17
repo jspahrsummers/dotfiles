@@ -19,7 +19,6 @@
     rbc = rebase --continue
     patches = log -p --reverse
     grab = fetch -p --recurse-submodules
-    rb = rebase $(git config branch.`git name-rev --name-only HEAD`.remote)
 [color]
     ui = auto
     diff = false
