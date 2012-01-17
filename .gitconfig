@@ -11,15 +11,6 @@
     co = checkout
     ci = commit
     st = status
-    setjmp = commit
-    longjmp = reset
-    fork = branch
-    join = merge
-    wait = merge
-    bg = branch
-    fg = checkout
-    barrier = rebase
-    s = svn
     sub = submodule
     subst = submodule status
     sup = submodule update --init --recursive
@@ -27,7 +18,8 @@
     rba = rebase --abort
     rbc = rebase --continue
     patches = log -p --reverse
-    superfetch = fetch -p --recurse-submodules
+    grab = fetch -p --recurse-submodules
+    rb = rebase $(git config branch.`git name-rev --name-only HEAD`.remote)
 [color]
     ui = auto
     diff = false
