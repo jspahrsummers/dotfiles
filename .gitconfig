@@ -32,10 +32,11 @@
 [branch]
     autosetuprebase = always
 [branch "master"]
-    mergeoptions = --no-ff --no-commit
+    mergeoptions = --no-commit
 [push]
     default = upstream
 [merge]
+    ff = false
     stat = true
 [rebase]
     stat = true
