@@ -6,6 +6,9 @@
     fsyncobjectfiles = true
     preloadindex = true
     quotepath = true
+[user]
+    name = Justin Spahr-Summers
+    email = Justin.SpahrSummers@gmail.com
 [alias]
     wtf = blame
     co = checkout
