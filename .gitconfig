@@ -1,6 +1,6 @@
 [core]
     editor = vim
-    pager = vim -
+    pager = view -
     excludesfile = ~/.dotfiles/global.gitignore
     whitespace = blank-at-eol,space-before-tab,-blank-at-eof,tabwidth=4
     fsyncobjectfiles = true
