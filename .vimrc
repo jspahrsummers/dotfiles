@@ -43,6 +43,7 @@ nnoremap <Down> <C-w>j
 nnoremap <Up> <C-w>k
 nnoremap <Left> <C-w>h
 nnoremap <Right> <C-w>l
+nnoremap <Space> @q
 nnoremap / /\v
 nnoremap <tab> %
 nnoremap <leader>w <C-w>s<C-w>k
