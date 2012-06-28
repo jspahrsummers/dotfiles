@@ -1,0 +1,3 @@
+[submodule ".vim/bundle/vim-objc"]
+	path = .vim/bundle/vim-objc
+	url = https://github.com/b4winckler/vim-objc.git
