@@ -30,6 +30,8 @@ set foldlevelstart=99
 set autochdir
 set listchars=tab:⇥_,trail:.,nbsp:.
 
+autocmd FileType clojure setlocal shiftwidth=2 softtabstop=2
+
 noremap <silent> <C-o> :FSSplitRight<CR>
 noremap <silent> <C-Down>  <ESC><C-w>j
 noremap <silent> <C-Up>    <ESC><C-w>k
