@@ -1,10 +1,11 @@
 let mapleader=","
 
-filetype indent on
-syntax on
-filetype plugin off
+filetype off
 
 call pathogen#infect()
+
+syntax on
+filetype indent plugin off
 
 set nocompatible
 set tabstop=4
