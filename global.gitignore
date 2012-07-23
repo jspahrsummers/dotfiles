@@ -6,3 +6,8 @@ xcuserdata
 *.swo
 auth
 servers
+build
+*.o
+*.hi
+*.ho
+*_stub.h
