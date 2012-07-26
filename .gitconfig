@@ -32,8 +32,6 @@
     mnemonicprefix = true
 [status]
     submodulesummary = true
-[fetch]
-    recurseSubmodules = true
 [branch]
     autosetuprebase = always
 [push]
