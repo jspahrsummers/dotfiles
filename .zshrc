@@ -48,8 +48,7 @@ alias svnaddrm='svnadd && svnrm'
 alias topcpu='top -o cpu'
 alias topmem='top -o rsize'
 alias g=git
-alias grb='git rebase $(git config branch.`git name-rev --name-only HEAD`.remote)/`git name-rev --name-only HEAD`'
-alias gupdate='g grab; grb; g sup; git-recursive git-prune-local'
+alias gupdate='g grab; g rebase; g sup; git-recursive git-prune-local'
 
 # Set up vcs_info for the command prompt
 autoload -Uz vcs_info
