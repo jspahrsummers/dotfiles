@@ -49,13 +49,14 @@ nnoremap <Right> <C-w>l
 nnoremap <Space> @q
 nnoremap / /\v
 nnoremap <tab> %
-nnoremap <leader>w <C-w>s<C-w>k
+nnoremap <leader>h <C-w>s<C-w>k
+nnoremap <leader>v <C-w>v<C-w>l
 nnoremap <leader>= <C-W>=
 nnoremap <leader>e :e 
 nnoremap <leader>s :%s/\v
 nnoremap <leader>` :e ~/.vimrc<CR>
 nnoremap <leader>_ <C-w>_
-nnoremap <leader>h :noh<CR>
+nnoremap <leader>n :noh<CR>
 nnoremap <leader>H :syntax sync fromstart<CR>
 nnoremap <leader>c /<<<<<<<\\|=======\\|>>>>>>><CR>
 nnoremap <leader>d /deprecated<CR>
