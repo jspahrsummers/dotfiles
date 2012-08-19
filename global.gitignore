@@ -11,3 +11,4 @@ build
 *.hi
 *.ho
 *_stub.h
+.rbenv-version
