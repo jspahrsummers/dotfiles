@@ -31,6 +31,7 @@ set autochdir
 set listchars=tab:⇥_,trail:.,nbsp:.
 
 autocmd FileType clojure setlocal shiftwidth=2 softtabstop=2
+autocmd FileType ruby setlocal shiftwidth=2 softtabstop=2
 autocmd FileType c,objc setlocal noexpandtab
 
 noremap <silent> <C-o> :FSSplitRight<CR>
