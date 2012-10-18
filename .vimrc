@@ -33,6 +33,7 @@ set listchars=tab:⇥_,trail:.,nbsp:.
 autocmd FileType clojure setlocal shiftwidth=2 softtabstop=2
 autocmd FileType ruby setlocal shiftwidth=2 softtabstop=2
 autocmd FileType c,c++,cpp,objc setlocal noexpandtab
+autocmd BufRead *.md setlocal textwidth=80 formatoptions+=t
 
 noremap <silent> <C-o> :FSSplitRight<CR>
 noremap <silent> <C-Down>  <ESC><C-w>j
