@@ -33,7 +33,6 @@ export VISUAL=vim
 # Flags for package installations
 export CFLAGS="-Os"
 export CXXFLAGS="$CFLAGS"
-export MAKEFLAGS="-j9"
 
 # Homebrew flags
 export HOMEBREW_USE_CLANG
