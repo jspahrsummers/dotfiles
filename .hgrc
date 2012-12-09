@@ -1,8 +1,3 @@
 [ui]
 username=Justin Spahr-Summers <Justin.SpahrSummers@gmail.com>
 ignore=~/.hgignore
-
-[extensions]
-hgext.bookmarks = 
-hgext.graphlog = 
-hggit = 
