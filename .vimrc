@@ -40,8 +40,9 @@ noremap <silent> <C-Down>  <ESC><C-w>j
 noremap <silent> <C-Up>    <ESC><C-w>k
 noremap <silent> <C-Left>  <ESC><C-w>h
 noremap <silent> <C-Right> <ESC><C-w>l
-noremap <leader>p "0p
-noremap <leader>P "0P
+noremap <leader>p "*p
+noremap <leader>P "*P
+noremap y "*y
 nnoremap <silent> <C-n> :noh<CR>
 nnoremap ; :
 nnoremap <Down> <C-w>j
