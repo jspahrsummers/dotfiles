@@ -1,4 +1,4 @@
-let mapleader=","
+:let mapleader=","
 
 filetype off
 
@@ -68,6 +68,8 @@ vnoremap / /\v
 vnoremap <tab> %
 vnoremap < <gv
 vnoremap > >gv
+vnoremap * y/<C-R>"<CR>
+vnoremap # y?<C-R>"<CR>
 inoremap jj <ESC>
 
 set bg=dark
