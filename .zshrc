@@ -48,6 +48,7 @@ alias topcpu='top -o cpu'
 alias topmem='top -o rsize'
 alias g=git
 alias gupdate='g grab; g rebase; g sup; git-recursive git-prune-local'
+alias psl='pod spec lint --verbose --no-clean *.podspec'
 
 # Set up vcs_info for the command prompt
 autoload -Uz vcs_info
