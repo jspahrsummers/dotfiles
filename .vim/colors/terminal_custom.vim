@@ -30,4 +30,9 @@ hi WarningMsg   term=NONE cterm=NONE ctermfg=Blue        ctermbg=Yellow
 hi Error        term=NONE cterm=NONE ctermfg=DarkRed     ctermbg=Gray
 hi Cursor                            ctermfg=Black       ctermbg=Cyan
 hi LineNr       term=NONE cterm=NONE ctermfg=Red         ctermbg=Black
+
+" vim-gitgutter
 hi SignColumn   term=NONE cterm=NONE ctermfg=White       ctermbg=Black
+hi lineAdded    term=NONE cterm=NONE ctermfg=DarkGreen   ctermbg=Black
+hi lineModified term=NONE cterm=NONE ctermfg=Yellow      ctermbg=Black
+hi lineRemoved  term=NONE cterm=NONE ctermfg=DarkRed     ctermbg=Black

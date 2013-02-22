@@ -48,3 +48,8 @@ hi userLabel	guifg=#6C0540
 
 " Specific to Objective-C
 hi objcKeyForMethodParam	guifg=#000000
+
+" vim-gitgutter
+hi lineAdded    guifg=#00CC00 guibg=#EEEEEE
+hi lineModified guifg=#0000FF guibg=#EEEEEE
+hi lineRemoved  guifg=#FF0000 guibg=#EEEEEE
