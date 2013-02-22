@@ -36,6 +36,7 @@ hi StorageClass guifg=#881350 gui=bold
 hi Conditional  guifg=#881350 gui=bold
 
 hi LineNr		guifg=#666666 guibg=#EEEEEE
+hi SignColumn	guifg=#666666 guibg=#EEEEEE
 hi VertSplit	guifg=#666666 guibg=#CCCCCC gui=none
 hi StatusLine	guifg=#000000 guibg=#CCCCCC gui=none
 hi StatusLineNC	guifg=#000000 guibg=#CCCCCC gui=none

@@ -30,27 +30,4 @@ hi WarningMsg   term=NONE cterm=NONE ctermfg=Blue        ctermbg=Yellow
 hi Error        term=NONE cterm=NONE ctermfg=DarkRed     ctermbg=Gray
 hi Cursor                            ctermfg=Black       ctermbg=Cyan
 hi LineNr       term=NONE cterm=NONE ctermfg=Red         ctermbg=Black
-
-" GUI Color Scheme
-hi Normal       gui=NONE     guifg=White   guibg=#110022
-hi NonText      gui=NONE     guifg=#ff9999 guibg=#444444
-hi Function     gui=NONE     guifg=#7788ff guibg=#110022
-hi Statement    gui=BOLD     guifg=Yellow  guibg=#110022
-hi Special      gui=NONE     guifg=Cyan    guibg=#110022
-hi Constant     gui=NONE     guifg=#ff9900 guibg=#110022
-hi Comment      gui=NONE     guifg=#99cc99 guibg=#110022
-hi Preproc      gui=NONE     guifg=#33ff66 guibg=#110022
-hi Type         gui=NONE     guifg=#ff5577 guibg=#110022
-hi Identifier   gui=NONE     guifg=Cyan    guibg=#110022
-hi StatusLine   gui=BOLD     guifg=White   guibg=#336600
-hi StatusLineNC gui=NONE     guifg=Black   guibg=#cccccc
-hi Visual       gui=NONE     guifg=White   guibg=#00aa33
-hi Search       gui=BOLD     guibg=Yellow  guifg=DarkBlue
-hi VertSplit    gui=NONE     guifg=White   guibg=#666666
-hi Directory    gui=NONE     guifg=Green   guibg=#110022
-hi WarningMsg   gui=STANDOUT guifg=#0000cc guibg=Yellow
-hi Error        gui=NONE     guifg=White   guibg=Red
-hi Cursor                    guifg=White   guibg=#00ff33
-hi LineNr       gui=NONE     guifg=#cccccc guibg=#334444
-hi ModeMsg      gui=NONE     guifg=Blue    guibg=White
-hi Question     gui=NONE     guifg=#66ff99 guibg=#110022
+hi SignColumn   term=NONE cterm=NONE ctermfg=White       ctermbg=Black
