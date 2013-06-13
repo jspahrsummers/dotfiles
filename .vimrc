@@ -72,6 +72,7 @@ vnoremap < <gv
 vnoremap > >gv
 vnoremap * y/<C-R>"<CR>
 vnoremap # y?<C-R>"<CR>
+vnoremap <leader>s :sort<CR>
 inoremap jj <ESC>
 
 set bg=dark
