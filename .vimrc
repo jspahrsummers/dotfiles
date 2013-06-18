@@ -1,8 +1,16 @@
-:let mapleader=","
-
+let mapleader=","
 filetype off
 
 call pathogen#infect()
+
+let g:ctrlp_by_filename=1
+let g:ctrlp_regexp=0
+let g:ctrlp_switch_buffer="E"
+let g:ctrlp_clear_cache_on_exit=0
+let g:ctrlp_open_new_file="t"
+let g:ctrlp_open_multiple_files="tj"
+let g:ctrlp_match_window_reversed=0
+let g:ctrlp_prompt_mappings={ 'AcceptSelection("t")': ['<cr>'], 'AcceptSelection("e")': ['<c-t>'] }
 
 syntax on
 filetype indent plugin off
