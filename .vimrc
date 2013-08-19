@@ -11,6 +11,7 @@ let g:ctrlp_open_new_file="t"
 let g:ctrlp_open_multiple_files="tj"
 let g:ctrlp_match_window_reversed=0
 let g:ctrlp_prompt_mappings={ 'AcceptSelection("t")': ['<cr>'], 'AcceptSelection("e")': ['<c-t>'] }
+let g:ctrlp_custom_ignore='\v(dist|build)$'
 
 syntax on
 filetype indent plugin off
