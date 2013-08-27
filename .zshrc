@@ -49,6 +49,8 @@ alias topmem='top -o rsize'
 alias g=git
 alias gupdate='g grab; g rebase; g sup; git-recursive git-prune-local'
 alias psl='pod spec lint --verbose --no-clean *.podspec'
+alias cabal-build='cabal install --only-dependencies && cabal configure && cabal build'
+alias cabal-test='cabal install --only-dependencies --enable-tests && cabal configure --enable-tests && cabal build && cabal test --show-details=always'
 
 # Set up vcs_info for the command prompt
 autoload -Uz vcs_info
