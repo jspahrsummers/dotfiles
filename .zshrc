@@ -51,6 +51,7 @@ alias gupdate='g grab; g rebase; g sup; git-recursive git-prune-local'
 alias psl='pod spec lint --verbose --no-clean *.podspec'
 alias cabal-build='cabal install --only-dependencies -v0 && cabal configure -v0 && cabal build'
 alias cabal-test='cabal install --only-dependencies --enable-tests -v0 && cabal configure --enable-tests -v0 && cabal build -v0 && cabal test --show-details=always'
+alias cabal-install='cabal install --ghc-options="-pgmPcpphs -optP--cpp"'
 
 # Set up vcs_info for the command prompt
 autoload -Uz vcs_info
