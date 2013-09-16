@@ -41,6 +41,7 @@ set listchars=tab:⇥_,trail:.,nbsp:.
 
 autocmd FileType clojure setlocal shiftwidth=2 softtabstop=2
 autocmd FileType ruby,eruby,yaml setlocal shiftwidth=2 softtabstop=2
+autocmd FileType puppet setlocal shiftwidth=2 softtabstop=2
 autocmd FileType c,c++,cpp,objc setlocal noexpandtab
 autocmd FileType markdown setlocal textwidth=80 formatoptions+=t
 autocmd FileType cabal setlocal shiftwidth=2 softtabstop=2
