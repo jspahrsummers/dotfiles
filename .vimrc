@@ -38,11 +38,13 @@ set foldmethod=indent
 set foldlevelstart=99
 set autochdir
 set listchars=tab:⇥_,trail:.,nbsp:.
+set path=./../**,/usr/include/**,/usr/local/include/**
+set wildignore+=.*
 
 autocmd FileType clojure setlocal shiftwidth=2 softtabstop=2
 autocmd FileType ruby,eruby,yaml setlocal shiftwidth=2 softtabstop=2
 autocmd FileType puppet setlocal shiftwidth=2 softtabstop=2
-autocmd FileType c,c++,cpp,objc setlocal noexpandtab comments-=:// comments+=:/// comments+=://
+autocmd FileType c,c++,cpp,objc setlocal noexpandtab comments-=:// comments+=:/// comments+=:// suffixesadd+=.m,.h,.c,.pch,.mm,.cc,.cpp,.hh,.hpp
 autocmd FileType markdown setlocal textwidth=80 formatoptions+=t
 autocmd FileType cabal setlocal shiftwidth=2 softtabstop=2
 
