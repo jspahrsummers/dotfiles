@@ -10,3 +10,6 @@
 [submodule ".vim/bundle/puppet"]
 	path = .vim/bundle/puppet
 	url = https://github.com/rodjek/vim-puppet.git
+[submodule ".vim/bundle/vim-swift"]
+	path = .vim/bundle/vim-swift
+	url = https://github.com/toyamarinyon/vim-swift.git
