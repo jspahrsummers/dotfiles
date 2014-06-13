@@ -45,7 +45,7 @@ autocmd FileType clojure setlocal shiftwidth=2 softtabstop=2
 autocmd FileType ruby,eruby,yaml setlocal shiftwidth=2 softtabstop=2
 autocmd FileType puppet setlocal shiftwidth=2 softtabstop=2
 autocmd FileType c,c++,cpp,objc setlocal noexpandtab comments-=:// comments+=:/// comments+=:// suffixesadd+=.m,.h,.c,.pch,.mm,.cc,.cpp,.hh,.hpp
-autocmd FileType swift setlocal noexpandtab
+autocmd FileType swift setlocal noexpandtab comments-=:// comments+=:/// comments+=://
 autocmd FileType markdown setlocal textwidth=80 formatoptions+=t
 autocmd FileType cabal setlocal shiftwidth=2 softtabstop=2
 
