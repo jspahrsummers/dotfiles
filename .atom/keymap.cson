@@ -22,3 +22,4 @@
 
 '.workspace':
   'ctrl-o': 'switch-header-source:switch'
+  'cmd-shift-t': 'atom-terminal:open'
