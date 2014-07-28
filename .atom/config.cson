@@ -1,0 +1,22 @@
+'welcome':
+  'showOnStartup': false
+'editor':
+  'fontSize': 14
+  'tabLength': 4
+  'fontFamily': 'Menlo'
+  'showInvisibles': true
+'core':
+  'themes': [
+    'unity-ui'
+    'xcode-theme'
+  ]
+  'audioBeep': false
+  'disabledPackages': [
+    'snippets'
+  ]
+'recent-files':
+  'updated': false
+'autosave':
+  'enabled': true
+'tree-view':
+  'hideIgnoredNames': true
