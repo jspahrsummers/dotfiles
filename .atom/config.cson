@@ -20,3 +20,9 @@
   'enabled': true
 'tree-view':
   'hideIgnoredNames': true
+'vim-mode':
+  'commandModeInputViewFontSize': 13
+'atom-terminal': {}
+'bracket-matcher':
+  'autocompleteBrackets': false
+  'autocompleteSmartQuotes': false
