@@ -20,3 +20,7 @@
   'enabled': true
 'tree-view':
   'hideIgnoredNames': true
+'atom-terminal': {}
+'bracket-matcher':
+  'autocompleteBrackets': false
+  'autocompleteSmartQuotes': false
