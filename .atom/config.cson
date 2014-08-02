@@ -6,10 +6,6 @@
   'fontFamily': 'Menlo'
   'showInvisibles': true
 'core':
-  'themes': [
-    'unity-ui'
-    'xcode-theme'
-  ]
   'audioBeep': false
   'disabledPackages': [
     'snippets'
