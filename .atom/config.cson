@@ -17,7 +17,7 @@
 'tree-view':
   'hideIgnoredNames': true
 'vim-mode':
-  'commandModeInputViewFontSize': 13
+  'commandModeInputViewFontSize': 14
 'atom-terminal': {}
 'bracket-matcher':
   'autocompleteBrackets': false
