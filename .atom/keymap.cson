@@ -23,3 +23,12 @@
 '.workspace':
   'ctrl-o': 'switch-header-source:switch'
   'cmd-shift-t': 'atom-terminal:open'
+
+'.editor.conflicted':
+  ', m d': 'merge-conflicts:detect'
+  ', m 1': 'merge-conflicts:accept-ours'
+  ', m 2': 'merge-conflicts:accept-theirs'
+  ', m N': 'merge-conflicts:previous-unresolved'
+  ', m n': 'merge-conflicts:next-unresolved'
+  ', m enter': 'merge-conflicts:accept-current'
+  ', m r': 'merge-conflicts:revert-current'
