@@ -6,10 +6,6 @@
   'fontFamily': 'Menlo'
   'showInvisibles': true
 'core':
-  'themes': [
-    'unity-ui'
-    'xcode-theme'
-  ]
   'audioBeep': false
   'disabledPackages': [
     'snippets'
@@ -21,7 +17,7 @@
 'tree-view':
   'hideIgnoredNames': true
 'vim-mode':
-  'commandModeInputViewFontSize': 13
+  'commandModeInputViewFontSize': 14
 'atom-terminal': {}
 'bracket-matcher':
   'autocompleteBrackets': false
