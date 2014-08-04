@@ -5,6 +5,7 @@
   'tabLength': 4
   'fontFamily': 'Menlo'
   'showInvisibles': true
+  'softWrap': true
 'core':
   'audioBeep': false
   'disabledPackages': [
