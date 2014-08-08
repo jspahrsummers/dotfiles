@@ -34,7 +34,7 @@
   ', m r': 'merge-conflicts:revert-current'
 
 '.editor':
-  'shift-space': 'autocomplete:toggle'
+  'ctrl-n': 'autocomplete:toggle'
 
 '.autocomplete .mini.editor input':
   'escape': 'core:cancel'
