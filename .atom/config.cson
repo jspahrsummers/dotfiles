@@ -23,3 +23,5 @@
 'bracket-matcher':
   'autocompleteBrackets': false
   'autocompleteSmartQuotes': false
+'autocomplete':
+  'includeCompletionsFromAllBuffers': true

@@ -32,3 +32,9 @@
   ', m n': 'merge-conflicts:next-unresolved'
   ', m enter': 'merge-conflicts:accept-current'
   ', m r': 'merge-conflicts:revert-current'
+
+'.editor':
+  'shift-space': 'autocomplete:toggle'
+
+'.autocomplete .mini.editor input':
+  'escape': 'core:cancel'
