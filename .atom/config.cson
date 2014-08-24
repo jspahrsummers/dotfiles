@@ -6,6 +6,7 @@
   'fontFamily': 'Menlo'
   'showInvisibles': true
   'softWrap': true
+  'softTabs': false
 'core':
   'audioBeep': false
   'disabledPackages': [
