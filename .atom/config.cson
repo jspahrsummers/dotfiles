@@ -12,6 +12,10 @@
   'disabledPackages': [
     'snippets'
   ]
+  'themes': [
+    'unity-ui'
+    'xcode-theme'
+  ]
 'recent-files':
   'updated': false
 'autosave':
@@ -20,7 +24,6 @@
   'hideIgnoredNames': true
 'vim-mode':
   'commandModeInputViewFontSize': 14
-'atom-terminal': {}
 'bracket-matcher':
   'autocompleteBrackets': false
   'autocompleteSmartQuotes': false
