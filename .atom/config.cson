@@ -29,3 +29,5 @@
   'autocompleteSmartQuotes': false
 'autocomplete':
   'includeCompletionsFromAllBuffers': true
+'merge-conflicts':
+  'gitPath': '/usr/bin/git'
