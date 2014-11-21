@@ -12,3 +12,6 @@ build
 *.ho
 *_stub.h
 .rbenv-version
+
+Carthage.build
+Carthage.checkout/
