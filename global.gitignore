@@ -13,5 +13,4 @@ build
 *_stub.h
 .rbenv-version
 
-Carthage.build
-Carthage.checkout/
+Carthage/
