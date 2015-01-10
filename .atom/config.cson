@@ -1,30 +1,39 @@
-'global':
+'*':
   'welcome':
     'showOnStartup': false
   'editor':
-    'fontSize': 14
-    'tabLength': 4
     'fontFamily': 'Menlo'
+    'fontSize': 14
     'showInvisibles': true
+    'tabLength': 4
     'softWrap': true
     'softTabs': false
+    'invisibles': {}
   'core':
-    'audioBeep': false
     'disabledPackages': [
       'snippets'
+      'background-tips'
     ]
+    'themes': [
+      'atom-light-ui'
+      'atom-light-syntax'
+    ]
+    'audioBeep': false
   'recent-files':
     'updated': false
   'autosave':
     'enabled': true
   'tree-view':
+    'hideVcsIgnoredFiles': true
     'hideIgnoredNames': true
   'vim-mode':
-    'commandModeInputViewFontSize': 14
+    'useSmartcaseForSearch': true
   'bracket-matcher':
     'autocompleteBrackets': false
     'autocompleteSmartQuotes': false
   'autocomplete':
     'includeCompletionsFromAllBuffers': true
-  'merge-conflicts':
-    'gitPath': '/usr/bin/git'
+  'fuzzy-finder': {}
+  'git-diff':
+    'showIconsInEditorGutter': true
+  'tabs': {}
