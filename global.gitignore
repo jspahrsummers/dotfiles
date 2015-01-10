@@ -13,4 +13,4 @@ build
 *_stub.h
 .rbenv-version
 
-Carthage/
+/Carthage/
