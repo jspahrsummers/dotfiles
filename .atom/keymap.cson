@@ -38,3 +38,6 @@
 
 '.autocomplete .mini.editor input':
   'escape': 'core:cancel'
+
+'.platform-darwin .editor':
+  ', r': 'autoflow:reflow-selection'
