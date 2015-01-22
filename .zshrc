@@ -39,7 +39,7 @@ export HOMEBREW_USE_CLANG
 
 # System-independent paths
 export LUA_PATH='?;?.lua;?.luac;/usr/local/lib/?.luac;/usr/local/lib/?.lua;/usr/local/lib/lua/?.luac;/usr/local/lib/lua/?.lua'
-export PATH="~/.cabal/bin:/usr/local/bin/shell-scripts:/usr/local/bin:$PATH"
+export PATH="~/Library/Haskell/bin:/usr/local/bin/shell-scripts:/usr/local/bin:$PATH"
 
 # Shortcuts
 alias clearhist='rm "$HISTFILE"; clear'
