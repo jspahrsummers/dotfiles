@@ -1,39 +1,38 @@
-'*':
-  'welcome':
-    'showOnStartup': false
-  'editor':
-    'fontFamily': 'Menlo'
-    'fontSize': 14
-    'showInvisibles': true
-    'tabLength': 4
-    'softWrap': true
-    'softTabs': false
-    'invisibles': {}
-  'core':
-    'disabledPackages': [
-      'snippets'
-      'background-tips'
+"*":
+  welcome:
+    showOnStartup: false
+  editor:
+    fontFamily: "Menlo"
+    fontSize: 14
+    showInvisibles: true
+    tabLength: 4
+    softWrap: true
+    softTabs: false
+    invisibles: {}
+  core:
+    disabledPackages: [
+      "snippets"
+      "background-tips"
     ]
-    'themes': [
-      'atom-light-ui'
-      'atom-light-syntax'
+    themes: [
+      "atom-light-ui"
+      "atom-light-syntax"
     ]
-    'audioBeep': false
-  'recent-files':
-    'updated': false
-  'autosave':
-    'enabled': true
-  'tree-view':
-    'hideVcsIgnoredFiles': true
-    'hideIgnoredNames': true
-  'vim-mode':
-    'useSmartcaseForSearch': true
-  'bracket-matcher':
-    'autocompleteBrackets': false
-    'autocompleteSmartQuotes': false
-  'autocomplete':
-    'includeCompletionsFromAllBuffers': true
-  'fuzzy-finder': {}
-  'git-diff':
-    'showIconsInEditorGutter': true
-  'tabs': {}
+    audioBeep: false
+  "recent-files":
+    updated: false
+  autosave:
+    enabled: true
+  "tree-view":
+    hideIgnoredNames: true
+  "vim-mode":
+    useSmartcaseForSearch: true
+  "bracket-matcher":
+    autocompleteBrackets: false
+    autocompleteSmartQuotes: false
+  autocomplete:
+    includeCompletionsFromAllBuffers: true
+  "fuzzy-finder": {}
+  "git-diff":
+    showIconsInEditorGutter: true
+  tabs: {}
