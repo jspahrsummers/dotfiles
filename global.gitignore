@@ -14,3 +14,4 @@ build
 .rbenv-version
 
 /Carthage/
+/*.framework.zip
