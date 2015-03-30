@@ -40,6 +40,7 @@ set autochdir
 set listchars=tab:⇥_,trail:.,nbsp:.
 set path=./../**,/usr/include/**,/usr/local/include/**
 set wildignore+=.*
+set list
 
 autocmd FileType clojure setlocal shiftwidth=2 softtabstop=2
 autocmd FileType ruby,eruby,yaml setlocal shiftwidth=2 softtabstop=2
