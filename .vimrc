@@ -37,7 +37,7 @@ set number
 set foldmethod=indent
 set foldlevelstart=99
 set autochdir
-set listchars=tab:⇥_,trail:.,nbsp:.
+set listchars=tab:→ ,nbsp:.
 set path=./../**,/usr/include/**,/usr/local/include/**
 set wildignore+=.*
 set list
