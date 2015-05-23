@@ -54,6 +54,7 @@ alias cabal-test='cabal install --only-dependencies --enable-tests -v0 && cabal 
 alias cabal-install='cabal install --ghc-options="-pgmPcpphs-as-cpp"'
 alias add-build-scripts='git remote add objc-build-scripts https://github.com/jspahrsummers/objc-build-scripts.git 2>/dev/null; git fetch objc-build-scripts && git read-tree --prefix=script/ -u objc-build-scripts/master'
 alias update-build-scripts='git remote add objc-build-scripts https://github.com/jspahrsummers/objc-build-scripts.git 2>/dev/null; git fetch -p objc-build-scripts && git merge --ff --squash -Xsubtree=script objc-build-scripts/master'
+alias build-and-archive='rm -rf ~/Library/Developer/Xcode/DerivedData; carthage build --no-skip-current && carthage archive $(basename "$PWD")'
 
 # Set up vcs_info for the command prompt
 autoload -Uz vcs_info
