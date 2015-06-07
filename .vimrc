@@ -41,6 +41,7 @@ set listchars=tab:→ ,nbsp:.
 set path=./../**,/usr/include/**,/usr/local/include/**
 set wildignore+=.*
 set list
+set nrformats=alpha,hex
 
 autocmd FileType clojure setlocal shiftwidth=2 softtabstop=2
 autocmd FileType ruby,eruby,yaml setlocal shiftwidth=2 softtabstop=2
