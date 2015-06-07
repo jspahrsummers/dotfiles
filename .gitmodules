@@ -13,3 +13,6 @@
 [submodule ".vim/bundle/swift.vim"]
 	path = .vim/bundle/swift.vim
 	url = https://github.com/Keithbsmiley/swift.vim.git
+[submodule ".vim/bundle/vim-mercury"]
+	path = .vim/bundle/vim-mercury
+	url = https://github.com/khorser/vim-mercury.git
