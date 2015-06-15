@@ -43,6 +43,7 @@ set wildignore+=.*
 set list
 set nrformats=alpha,hex
 
+autocmd BufRead,BufNewFile *.m set filetype=objc
 autocmd FileType clojure setlocal shiftwidth=2 softtabstop=2
 autocmd FileType ruby,eruby,yaml setlocal shiftwidth=2 softtabstop=2
 autocmd FileType puppet setlocal shiftwidth=2 softtabstop=2
