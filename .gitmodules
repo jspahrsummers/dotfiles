@@ -16,3 +16,6 @@
 [submodule ".vim/bundle/vim-mercury"]
 	path = .vim/bundle/vim-mercury
 	url = https://github.com/khorser/vim-mercury.git
+[submodule ".vim/bundle/vim-carthage"]
+	path = .vim/bundle/vim-carthage
+	url = https://github.com/cfdrake/vim-carthage.git
