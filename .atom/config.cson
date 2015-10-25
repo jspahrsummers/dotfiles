@@ -11,4 +11,6 @@
   editor:
     invisibles: {}
     softWrap: true
+    fontFamily: "Menlo"
+    fontSize: 12
   "switch-header-source": {}
