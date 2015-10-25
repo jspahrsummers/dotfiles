@@ -1,38 +1,14 @@
 "*":
+  "exception-reporting":
+    userId: "fd0a9e65-f303-68dd-bfd1-aea7ea87e00e"
   welcome:
     showOnStartup: false
-  editor:
-    fontFamily: "Menlo"
-    fontSize: 14
-    showInvisibles: true
-    tabLength: 4
-    softWrap: true
-    softTabs: false
-    invisibles: {}
   core:
-    disabledPackages: [
-      "snippets"
-      "background-tips"
-    ]
     themes: [
-      "atom-light-ui"
-      "atom-light-syntax"
+      "one-light-ui"
+      "one-light-syntax"
     ]
-    audioBeep: false
-  "recent-files":
-    updated: false
-  autosave:
-    enabled: true
-  "tree-view":
-    hideIgnoredNames: true
-  "vim-mode":
-    useSmartcaseForSearch: true
-  "bracket-matcher":
-    autocompleteBrackets: false
-    autocompleteSmartQuotes: false
-  autocomplete:
-    includeCompletionsFromAllBuffers: true
-  "fuzzy-finder": {}
-  "git-diff":
-    showIconsInEditorGutter: true
-  tabs: {}
+  editor:
+    invisibles: {}
+    softWrap: true
+  "switch-header-source": {}
