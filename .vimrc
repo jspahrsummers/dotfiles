@@ -20,8 +20,8 @@ filetype indent plugin off
 
 set nocompatible
 set tabstop=4
-set softtabstop=4
-set shiftwidth=4
+set softtabstop=2
+set shiftwidth=2
 set expandtab
 set nocindent
 set nosmartindent
@@ -47,13 +47,8 @@ set nrformats=alpha,hex
 set backupcopy=auto
 
 autocmd BufRead,BufNewFile *.m set filetype=objc
-autocmd FileType clojure setlocal shiftwidth=2 softtabstop=2
-autocmd FileType ruby,eruby,yaml setlocal shiftwidth=2 softtabstop=2
-autocmd FileType puppet setlocal shiftwidth=2 softtabstop=2
-autocmd FileType c,c++,cpp,objc setlocal noexpandtab comments-=:// comments+=:/// comments+=:// suffixesadd+=.m,.h,.c,.pch,.mm,.cc,.cpp,.hh,.hpp
-autocmd FileType swift setlocal noexpandtab comments-=:// comments+=:/// comments+=://
-autocmd FileType markdown setlocal textwidth=80 formatoptions+=t
-autocmd FileType cabal setlocal shiftwidth=2 softtabstop=2
+autocmd FileType c,c++,cpp,objc setlocal comments-=:// comments+=:/// comments+=:// suffixesadd+=.m,.h,.c,.pch,.mm,.cc,.cpp,.hh,.hpp
+autocmd FileType swift setlocal comments-=:// comments+=:/// comments+=://
 
 noremap <silent> <C-o> :FSSplitRight<CR>
 noremap <silent> <C-Down>	 <ESC><C-w>j
