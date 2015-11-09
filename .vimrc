@@ -11,7 +11,9 @@ let g:ctrlp_open_new_file="t"
 let g:ctrlp_open_multiple_files="tj"
 let g:ctrlp_match_window_reversed=0
 let g:ctrlp_prompt_mappings={ 'AcceptSelection("t")': ['<cr>'], 'AcceptSelection("e")': ['<c-t>'] }
-let g:ctrlp_custom_ignore='\v(dist|build)$'
+let g:ctrlp_custom_ignore='\v(dist|build|buck-cache|buck-out)$'
+let g:ctrlp_root_markers=['.buckconfig','BUCK']
+let g:ctrlp_max_files=0
 
 syntax on
 filetype indent plugin off
@@ -39,7 +41,7 @@ set foldlevelstart=99
 set autochdir
 set listchars=tab:→ ,nbsp:.
 set path=./../**,/usr/include/**,/usr/local/include/**
-set wildignore+=.*
+set wildignore+=.*,buck-cache/*,buck-out/*
 set list
 set nrformats=alpha,hex
 set backupcopy=auto
