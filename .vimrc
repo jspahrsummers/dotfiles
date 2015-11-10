@@ -11,15 +11,17 @@ let g:ctrlp_open_new_file="t"
 let g:ctrlp_open_multiple_files="tj"
 let g:ctrlp_match_window_reversed=0
 let g:ctrlp_prompt_mappings={ 'AcceptSelection("t")': ['<cr>'], 'AcceptSelection("e")': ['<c-t>'] }
-let g:ctrlp_custom_ignore='\v(dist|build)$'
+let g:ctrlp_custom_ignore='\v(dist|build|buck-cache|buck-out)$'
+let g:ctrlp_root_markers=['.buckconfig','BUCK']
+let g:ctrlp_max_files=0
 
 syntax on
 filetype indent plugin off
 
 set nocompatible
 set tabstop=4
-set softtabstop=4
-set shiftwidth=4
+set softtabstop=2
+set shiftwidth=2
 set expandtab
 set nocindent
 set nosmartindent
@@ -39,16 +41,14 @@ set foldlevelstart=99
 set autochdir
 set listchars=tab:→ ,nbsp:.
 set path=./../**,/usr/include/**,/usr/local/include/**
-set wildignore+=.*
+set wildignore+=.*,buck-cache/*,buck-out/*
 set list
+set nrformats=alpha,hex
+set backupcopy=auto
 
-autocmd FileType clojure setlocal shiftwidth=2 softtabstop=2
-autocmd FileType ruby,eruby,yaml setlocal shiftwidth=2 softtabstop=2
-autocmd FileType puppet setlocal shiftwidth=2 softtabstop=2
-autocmd FileType c,c++,cpp,objc setlocal noexpandtab comments-=:// comments+=:/// comments+=:// suffixesadd+=.m,.h,.c,.pch,.mm,.cc,.cpp,.hh,.hpp
-autocmd FileType swift setlocal noexpandtab comments-=:// comments+=:/// comments+=://
-autocmd FileType markdown setlocal textwidth=80 formatoptions+=t
-autocmd FileType cabal setlocal shiftwidth=2 softtabstop=2
+autocmd BufRead,BufNewFile *.m set filetype=objc
+autocmd FileType c,c++,cpp,objc setlocal comments-=:// comments+=:/// comments+=:// suffixesadd+=.m,.h,.c,.pch,.mm,.cc,.cpp,.hh,.hpp
+autocmd FileType swift setlocal comments-=:// comments+=:/// comments+=://
 
 noremap <silent> <C-o> :FSSplitRight<CR>
 noremap <silent> <C-Down>	 <ESC><C-w>j
