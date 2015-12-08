@@ -32,7 +32,7 @@ set gdefault
 set ruler
 set textwidth=80
 set visualbell
-set formatoptions=rco1
+set formatoptions=rcoq1
 set equalalways
 set autoread
 set number
