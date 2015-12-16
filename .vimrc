@@ -20,6 +20,9 @@ let g:nerdtree_tabs_focus_on_files=1
 let g:nerdtree_tabs_autofind=1
 let g:NERDTreeSortOrder=['*','\.swp$','\.bak$','\~$']
 
+let g:opamshare = substitute(system('opam config var share'),'\n$','','''')
+execute "set rtp+=" . g:opamshare . "/merlin/vim"
+
 syntax on
 filetype indent plugin off
 
