@@ -12,8 +12,13 @@ let g:ctrlp_open_multiple_files="tj"
 let g:ctrlp_match_window_reversed=0
 let g:ctrlp_prompt_mappings={ 'AcceptSelection("t")': ['<cr>'], 'AcceptSelection("e")': ['<c-t>'] }
 let g:ctrlp_custom_ignore='\v(dist|build|buck-cache|buck-out)$'
-let g:ctrlp_root_markers=['.buckconfig','BUCK']
+let g:ctrlp_root_markers=['.buckconfig','BUCK','.git','.hg']
 let g:ctrlp_max_files=0
+
+let g:nerdtree_tabs_open_on_gui_startup=0
+let g:nerdtree_tabs_focus_on_files=1
+let g:nerdtree_tabs_autofind=1
+let g:NERDTreeSortOrder=['*','\.swp$','\.bak$','\~$']
 
 syntax on
 filetype indent plugin off
@@ -32,7 +37,7 @@ set gdefault
 set ruler
 set textwidth=80
 set visualbell
-set formatoptions=rco1
+set formatoptions=rcoq1
 set equalalways
 set autoread
 set number
@@ -59,6 +64,7 @@ noremap <silent> <C-Left>	 <ESC><C-w>h
 noremap <silent> <C-Right> <ESC><C-w>l
 noremap <leader>p "*p
 noremap <leader>P "*P
+noremap <leader>t :NERDTreeTabsToggle<CR>
 noremap y "*y
 nnoremap <silent> <C-n> :noh<CR>
 nnoremap ; :
@@ -80,7 +86,7 @@ nnoremap <leader>n :noh<CR>
 nnoremap <leader>H :syntax sync fromstart<CR>
 nnoremap <leader>c /<<<<<<<\\|=======\\|>>>>>>><CR>
 nnoremap <leader>d /deprecated<CR>
-nnoremap <leader>t /fixme\\|todo<CR>
+nnoremap <leader>T /fixme\\|todo<CR>
 nnoremap <leader>j Jldw$
 vnoremap / /\v
 vnoremap <tab> %
