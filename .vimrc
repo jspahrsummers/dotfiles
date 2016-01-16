@@ -58,6 +58,7 @@ autocmd FileType c,c++,cpp,objc setlocal comments-=:// comments+=:/// comments+=
 autocmd FileType swift setlocal comments-=:// comments+=:/// comments+=://
 autocmd BufEnter *.mm let b:fswitchdst = 'hh,h,hpp' | let b:fswitchlocs='./'
 autocmd BufEnter *.h let b:fswitchdst = 'c,m,mm,cc,cpp'
+autocmd BufEnter *.hpp,*.hh let b:fswitchdst = 'mm,cc,cpp' | let b:fswitchlocs='./'
 
 noremap <silent> <C-o> :FSSplitRight<CR>
 noremap <silent> <C-Down>	 <ESC><C-w>j
