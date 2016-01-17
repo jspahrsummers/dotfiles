@@ -54,7 +54,6 @@ set list
 set nrformats=alpha,hex
 set backupcopy=auto
 
-autocmd BufRead,BufNewFile *.m set filetype=objc
 autocmd FileType c,c++,cpp,objc setlocal comments-=:// comments+=:/// comments+=:// suffixesadd+=.m,.h,.c,.pch,.mm,.cc,.cpp,.hh,.hpp
 autocmd FileType swift setlocal comments-=:// comments+=:/// comments+=://
 autocmd BufEnter *.mm let b:fswitchdst = 'hh,h,hpp' | let b:fswitchlocs='./'
