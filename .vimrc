@@ -53,7 +53,7 @@ set wildignore+=.*,buck-cache/*,buck-out/*
 set list
 set nrformats=alpha,hex
 set backupcopy=auto
-set comments=s1:/*,mb:*,ex:*/,://,b:#,:%,:XCOMM,fb:-
+set comments=s1:/*,mb:*,ex:*/,://,b:#,:%,:XCOMM
 
 autocmd FileType c,c++,cpp,objc setlocal comments-=:// comments+=:/// comments+=:// suffixesadd+=.m,.h,.c,.pch,.mm,.cc,.cpp,.hh,.hpp
 autocmd FileType swift setlocal comments-=:// comments+=:/// comments+=://
