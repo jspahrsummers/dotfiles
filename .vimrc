@@ -12,7 +12,7 @@ let g:ctrlp_open_multiple_files="tj"
 let g:ctrlp_match_window_reversed=0
 let g:ctrlp_prompt_mappings={ 'AcceptSelection("t")': ['<cr>'], 'AcceptSelection("e")': ['<c-t>'] }
 let g:ctrlp_custom_ignore='\v(dist|build|buck-cache|buck-out)$'
-let g:ctrlp_root_markers=['.buckconfig','BUCK','.git','.hg']
+let g:ctrlp_root_markers=['.buckconfig','BUCK','.git','.hg','pom.xml']
 let g:ctrlp_max_files=0
 
 let g:nerdtree_tabs_open_on_gui_startup=0
