@@ -61,6 +61,7 @@ autocmd BufEnter *.mm let b:fswitchdst = 'hh,h,hpp' | let b:fswitchlocs='./'
 autocmd BufEnter *.h let b:fswitchdst = 'c,m,mm,cc,cpp'
 autocmd BufEnter *.hpp,*.hh let b:fswitchdst = 'mm,cc,cpp' | let b:fswitchlocs='./'
 autocmd BufEnter BUCK setlocal filetype=python
+autocmd BufEnter *.rx setlocal filetype=rust
 
 noremap <silent> <C-o> :FSSplitRight<CR>
 noremap <silent> <C-Down>	 <ESC><C-w>j
