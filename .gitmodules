@@ -25,3 +25,6 @@
 [submodule ".vim/bundle/rust.vim"]
 	path = .vim/bundle/rust.vim
 	url = https://github.com/rust-lang/rust.vim.git
+[submodule ".vim/bundle/vim-graphql"]
+	path = .vim/bundle/vim-graphql
+	url = https://github.com/jparise/vim-graphql
