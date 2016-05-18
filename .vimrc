@@ -12,7 +12,7 @@ let g:ctrlp_open_multiple_files="tj"
 let g:ctrlp_match_window_reversed=0
 let g:ctrlp_prompt_mappings={ 'AcceptSelection("t")': ['<cr>'], 'AcceptSelection("e")': ['<c-t>'] }
 let g:ctrlp_custom_ignore='\v(dist|build|buck-cache|buck-out)$'
-let g:ctrlp_root_markers=['.buckconfig','BUCK','.git','.hg','pom.xml']
+let g:ctrlp_root_markers=['.buckconfig','BUCK','.git','.hg','pom.xml','TARGETS']
 let g:ctrlp_max_files=0
 
 let g:nerdtree_tabs_open_on_gui_startup=0
@@ -61,6 +61,7 @@ autocmd BufEnter *.mm let b:fswitchdst = 'hh,h,hpp' | let b:fswitchlocs='./'
 autocmd BufEnter *.h let b:fswitchdst = 'c,m,mm,cc,cpp'
 autocmd BufEnter *.hpp,*.hh let b:fswitchdst = 'mm,cc,cpp' | let b:fswitchlocs='./'
 autocmd BufEnter BUCK setlocal filetype=python
+autocmd BufEnter *.rx setlocal filetype=rust
 
 noremap <silent> <C-o> :FSSplitRight<CR>
 noremap <silent> <C-Down>	 <ESC><C-w>j
