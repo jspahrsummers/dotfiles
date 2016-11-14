@@ -57,6 +57,7 @@ set comments=s1:/*,mb:*,ex:*/,://,b:#,:%,:XCOMM
 
 autocmd FileType c,c++,cpp,objc setlocal comments-=:// comments+=:/// comments+=:// suffixesadd+=.m,.h,.c,.pch,.mm,.cc,.cpp,.hh,.hpp
 autocmd FileType swift setlocal comments-=:// comments+=:/// comments+=://
+autocmd FileType make setlocal noexpandtab softtabstop=4 shiftwidth=4
 autocmd BufEnter *.mm let b:fswitchdst = 'hh,h,hpp' | let b:fswitchlocs='./'
 autocmd BufEnter *.h let b:fswitchdst = 'c,m,mm,cc,cpp'
 autocmd BufEnter *.hpp,*.hh let b:fswitchdst = 'mm,cc,cpp' | let b:fswitchlocs='./'
