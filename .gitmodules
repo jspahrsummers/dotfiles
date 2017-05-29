@@ -28,3 +28,6 @@
 [submodule ".vim/bundle/vim-graphql"]
 	path = .vim/bundle/vim-graphql
 	url = https://github.com/jparise/vim-graphql
+[submodule ".vim/bundle/purescript-vim"]
+	path = .vim/bundle/purescript-vim
+	url = https://github.com/raichoo/purescript-vim.git
